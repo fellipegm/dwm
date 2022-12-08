@@ -9,15 +9,15 @@ Probably only useful if you have a lot of additional layouts.
 The NULL, NULL layout should always be the last layout in your list,
 in order to guarantee consistent behavior.
 ---
- config.def.h |  3 +++
+ config.h |  3 +++
  dwm.1        |  6 ++++++
  dwm.c        | 18 ++++++++++++++++++
  3 files changed, 27 insertions(+)
 
-diff --git a/config.def.h b/config.def.h
+diff --git a/config.h b/config.h
 index a9ac303..153b880 100644
---- a/config.def.h
-+++ b/config.def.h
+--- a/config.h
++++ b/config.h
 @@ -41,6 +41,7 @@ static const Layout layouts[] = {
  	{ "[]=",      tile },    /* first entry is default */
  	{ "><>",      NULL },    /* no layout function means floating behavior */
