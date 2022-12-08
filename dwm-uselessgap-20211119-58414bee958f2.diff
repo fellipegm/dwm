@@ -6,14 +6,14 @@ Previous versions of the patch doubles the
 gap between the master and slave stacks.
 
 ---
- config.def.h |  3 ++-
+ config.h |  3 ++-
  dwm.c        | 38 +++++++++++++++++++++++++++++++-------
  2 files changed, 33 insertions(+), 8 deletions(-)
 
-diff --git a/config.def.h b/config.def.h
+diff --git a/config.h b/config.h
 index a2ac963..17a205f 100644
---- a/config.def.h
-+++ b/config.def.h
+--- a/config.h
++++ b/config.h
 @@ -2,6 +2,7 @@
 
  /* appearance */
